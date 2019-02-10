@@ -1,1 +1,2 @@
-# AndroidStudioProjects\nProjects from Android Class
+# AndroidStudioProjects
+Projects from Android Class
