@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "653717715281",
+    "firebase_url": "https://boutell-password-keeper-4e2d3.firebaseio.com",
+    "project_id": "boutell-password-keeper-4e2d3",
+    "storage_bucket": "boutell-password-keeper-4e2d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653717715281:android:e990c52a0f880fe5",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.passwordkeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653717715281-dkiq6pj5erqdfb67h0e4nf74tmmpibea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWQksgVzGMBJ9_19njXtlfkP_9Adwxwk4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

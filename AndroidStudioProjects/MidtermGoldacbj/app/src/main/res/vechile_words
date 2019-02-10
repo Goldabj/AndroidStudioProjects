@@ -1,0 +1,16 @@
+[
+{"english": "ambulance", "language2": "ambulancia", "language3": "krankenwagen", "unicode": "\uf0f9", "definition": "a vehicle specially equipped for taking sick or injured people to and from the hospital, especially in emergencies"},
+{"english": "bicycle", "language2": "bicicleta", "language3": "fahrrad", "unicode": "\uf206", "definition": "a vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel"},
+{"english": "bus", "language2": "autobús", "language3": "bus", "unicode": "\uf207", "definition": "a large motor vehicle carrying passengers by road, especially one serving the public on a fixed route and for a fare"},
+{"english": "car", "language2": "coche", "language3": "auto", "unicode": "\uf1b9", "definition": "a road vehicle, typically with four wheels, powered by an internal combustion engine and able to carry a small number of people"},
+{"english": "jet", "language2": "chorro", "language3": "jet", "unicode": "\uf0fb", "definition": "an aircraft powered by one or more jet engines"},
+{"english": "motorcycle", "language2": "motocicleta", "language3": "motorrad", "unicode": "\uf21c", "definition": "a two-wheeled vehicle that is powered by a motor and has no pedals"},
+{"english": "plane", "language2": "avión", "language3": "ebene", "unicode": "\uf072", "definition": "a powered flying vehicle with fixed wings and a weight greater than that of the air it displaces"},
+{"english": "rocket", "language2": "cohete", "language3": "rakete", "unicode": "\uf135", "definition": "an elongated rocket-propelled missile or spacecraft"},
+{"english": "ship", "language2": "enviar", "language3": "schiff", "unicode": "\uf21a", "definition": "a vessel larger than a boat for transporting people or goods by sea"},
+{"english": "subway", "language2": "subterraneo", "language3": "u-bahn", "unicode": "\uf239", "definition": "an underground electric railroad"},
+{"english": "taxi", "language2": "taxi", "language3": "taxi", "unicode": "\uf1ba", "definition": "a car licensed to transport passengers in return for payment of a fare"},
+{"english": "train", "language2": "tren", "language3": "zug", "unicode": "\uf238", "definition": "a series of railroad cars moved as a unit by a locomotive or by integral motors"},
+{"english": "truck", "language2": "camión", "language3": "lastwagen", "unicode": "\uf0d1", "definition": "a large, heavy motor vehicle used for transporting goods, materials, or troops"},
+{"english": "wheelchair", "language2": "silla de ruedas", "language3": "rollstuhl", "unicode": "\uf193", "definition": "a chair fitted with wheels for use as a means of transport by a person who is unable to walk as a result of illness, injury, or disability"}
+]

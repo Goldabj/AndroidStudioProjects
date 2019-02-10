@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.rose_hulman.goldacbj.midtermgoldacbj.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameView"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:elevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp">
+
+            <TextView
+                android:id="@+id/matchThisTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/matchThis"
+                android:textSize="18sp"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score_start"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"/>
+
+
+            <TextView
+                android:id="@+id/currentWordTextView"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Word"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/matchThisTextView"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_below="@+id/frameView"
+        android:id="@+id/lineView"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lineView"
+        android:layout_margin="2dp"
+        android:fillViewport="false">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerView">
+
+        </android.support.v7.widget.RecyclerView>
+    </ScrollView>
+</RelativeLayout>

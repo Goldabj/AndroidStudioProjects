@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "520073676509",
+    "firebase_url": "https://goldacbj-movie-qoutes.firebaseio.com",
+    "project_id": "goldacbj-movie-qoutes",
+    "storage_bucket": "goldacbj-movie-qoutes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520073676509:android:743f2207ff9f6c7c",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.movieqoutes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520073676509-s802t3vsc9n49ns11l8icoo8253dhimc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.rosehulman.movieqoutes",
+            "certificate_hash": "5774D374A1DB2BB95C03220086C32FDE82C49262"
+          }
+        },
+        {
+          "client_id": "520073676509-nfu63nb7stn444c0agq6i465uaa16r5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChyiFwlZy6w0TcNaHARmlECd4bPv11fDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520073676509-nfu63nb7stn444c0agq6i465uaa16r5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

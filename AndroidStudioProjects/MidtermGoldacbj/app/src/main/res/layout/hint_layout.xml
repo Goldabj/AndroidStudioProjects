@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <TableRow
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/englishRow"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/englishName"
+            android:textSize="18sp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/englishNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/english"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/spanishRow"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/englishRow">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spanishName"
+            android:textSize="18sp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/spanishNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/spanish"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/germanRow"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/spanishRow">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/germanName"
+            android:textSize="18sp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/germanNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/german"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/definitionRow"
+        android:layout_below="@+id/germanRow">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/definitionName"
+            android:textSize="18sp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/defitionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/definition"/>
+
+    </TableRow>
+
+</RelativeLayout>

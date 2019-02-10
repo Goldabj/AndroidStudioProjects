@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Linear Lights Out</string>
+    <string name="Lights_start">Make the buttons match</string>
+    <string name="X">X</string>
+    <string name="O">O</string>
+    <plurals name="turns_taken">
+        <item quantity="other">You have taken %d turns</item>
+        <item quantity="one">You have taken %d turn</item>
+    </plurals>
+    <string name="Won">You Won!</string>
+    <string name="New_game">New Game</string>
+</resources>

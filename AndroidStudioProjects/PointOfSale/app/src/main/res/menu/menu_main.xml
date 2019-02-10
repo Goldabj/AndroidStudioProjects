@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.rose_hulman.goldacbj.pointofsale.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/reset_action"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/reset"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/search_actoin"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/clearAll_action"
+        android:orderInCategory="100"
+        android:title="@string/clear_all"
+        app:showAsAction="never"/>
+
+
+</menu>

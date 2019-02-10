@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.rose_hulman.goldacbj.midtermgoldacbj.MainActivity">
+    <item
+        android:icon="@drawable/ic_shuffle_light_gray"
+        android:id="@+id/action_shuffle"
+        android:orderInCategory="80"
+        android:title="@string/shuffle"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_reset"
+        android:orderInCategory="90"
+        android:title="@string/reset"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
